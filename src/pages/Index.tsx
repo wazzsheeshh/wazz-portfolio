@@ -5,10 +5,12 @@ import Competitions from "@/components/Competitions";
 import Achievements from "@/components/Achievements";
 import Timeline from "@/components/Timeline";
 import Footer from "@/components/Footer";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const Index = () => {
   return (
     <main className="min-h-screen">
+      <ThemeToggle />
       <Hero />
       <About />
       <Education />
