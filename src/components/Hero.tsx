@@ -59,19 +59,17 @@ const Hero = () => {
               <Download className="mr-2 h-5 w-5 group-hover:animate-pulse" />
               Download CV
             </Button>
-<<<<<<< HEAD
-            <a href="#contact">
-              <Button size="lg" variant="outline" className="group glass-card border-primary/30 hover:border-primary text-foreground">
+            <Button 
+              asChild
+              size="lg" 
+              variant="outline" 
+              className="group glass-card border-primary/30 hover:border-primary text-foreground"
+            >
+              <a href="#contact">
                 Contact Me
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
-            </a>
-=======
-            <Button size="lg" variant="outline" className="group glass-card border-primary/30 hover:border-primary text-foreground">
-              Contact Me
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </a>
             </Button>
->>>>>>> 165ad672107b7d8bd75666545313d498959de9e6
           </div>
         </div>
       </div>

@@ -124,19 +124,11 @@ All colors MUST be HSL.
     @apply bg-background text-foreground font-inter antialiased;
   }
   
-<<<<<<< HEAD
   html.dark body {
     background: linear-gradient(180deg, hsl(240 10% 3.9%), hsl(240 10% 7%));
   }
   
   html:not(.dark) body {
-=======
-  body.dark {
-    background: linear-gradient(180deg, hsl(240 10% 3.9%), hsl(240 10% 7%));
-  }
-  
-  body:not(.dark) {
-    
     background: linear-gradient(180deg, hsl(210 20% 98%), hsl(210 15% 92%));
   }
   
@@ -151,20 +143,12 @@ All colors MUST be HSL.
     -webkit-backdrop-filter: blur(20px);
   }
   
-<<<<<<< HEAD
   html.dark .glass {
-=======
-  .dark .glass {
->>>>>>> 165ad672107b7d8bd75666545313d498959de9e6
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
   
-<<<<<<< HEAD
   html:not(.dark) .glass {
-=======
-  :not(.dark) .glass {
->>>>>>> 165ad672107b7d8bd75666545313d498959de9e6
     background: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.15);
   }
@@ -175,20 +159,12 @@ All colors MUST be HSL.
     transition: var(--transition-smooth);
   }
   
-<<<<<<< HEAD
   html.dark .glass-card {
-=======
-  .dark .glass-card {
->>>>>>> 165ad672107b7d8bd75666545313d498959de9e6
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
   }
   
-<<<<<<< HEAD
   html:not(.dark) .glass-card {
-=======
-  :not(.dark) .glass-card {
->>>>>>> 165ad672107b7d8bd75666545313d498959de9e6
     background: rgba(255, 255, 255, 0.85);
     border: 1px solid rgba(0, 0, 0, 0.12);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
@@ -200,19 +176,11 @@ All colors MUST be HSL.
     box-shadow: var(--shadow-glow);
   }
   
-<<<<<<< HEAD
   html.dark .glass-card:hover {
     background: rgba(255, 255, 255, 0.06);
   }
   
   html:not(.dark) .glass-card:hover {
-=======
-  .dark .glass-card:hover {
-    background: rgba(255, 255, 255, 0.06);
-  }
-  
-  :not(.dark) .glass-card:hover {
->>>>>>> 165ad672107b7d8bd75666545313d498959de9e6
     background: rgba(255, 255, 255, 0.95);
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.15);
   }

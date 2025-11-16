@@ -6,11 +6,7 @@ const Timeline = () => {
   const [isHovering, setIsHovering] = useState(false);
 
   const milestones = [
-<<<<<<< HEAD
     { year: 2009, title: "Born", description: "Lahirnya Wazz di Indonesia" },
-=======
-    { year: 2008, title: "Born", description: "Lahirnya Wazz di Indonesia" },
->>>>>>> 165ad672107b7d8bd75666545313d498959de9e6
     { year: 2021, title: "First AI", description: "Menciptakan AI pertama di usia 13 tahun" },
     { year: 2027, title: "ITB", description: "Masuk Institut Teknologi Bandung" },
     { year: 2029, title: "Stuttgart", description: "Melanjutkan master di University of Stuttgart" },
