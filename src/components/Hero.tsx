@@ -55,9 +55,15 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <Button size="lg" className="group bg-primary hover:bg-primary/90 text-white glow">
-              <Download className="mr-2 h-5 w-5 group-hover:animate-pulse" />
-              Download CV
+            <Button 
+              asChild
+              size="lg" 
+              className="group bg-primary hover:bg-primary/90 text-white glow"
+            >
+              <a href="/cv.pdf" download="Raja-Fawaz-CV.pdf" target="_blank" rel="noopener noreferrer">
+                <Download className="mr-2 h-5 w-5 group-hover:animate-pulse" />
+                Download CV
+              </a>
             </Button>
             <Button 
               asChild

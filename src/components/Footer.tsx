@@ -13,7 +13,7 @@ const Footer = () => {
               </p>
               <div className="flex gap-4">
                 <a
-                  href="https://twitter.com/YOUR_TWITTER_HANDLE"
+                  href="https://x.com/wazzsheeshh"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-xl glass-card flex items-center justify-center hover:bg-primary/20 transition-all group"
@@ -31,7 +31,7 @@ const Footer = () => {
                   <Linkedin className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
                 </a>
                 <a
-                  href="https://github.com/YOUR_GITHUB_USERNAME"
+                  href="https://github.com/wazzsheeshh"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-xl glass-card flex items-center justify-center hover:bg-primary/20 transition-all group"
@@ -40,7 +40,7 @@ const Footer = () => {
                   <Github className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
                 </a>
                 <a
-                  href="mailto:YOUR_EMAIL@example.com"
+                  href="mailto:wazzsheeshh@gmail.com"
                   className="w-12 h-12 rounded-xl glass-card flex items-center justify-center hover:bg-primary/20 transition-all group"
                   title="Email"
                 >
@@ -52,7 +52,7 @@ const Footer = () => {
             <div className="text-center md:text-right space-y-4">
               <p className="text-4xl font-bold text-gradient">WAZZ</p>
               <p className="text-muted-foreground">
-                © 2024 Raja Fawaz. All rights reserved.
+                © 2025 Raja Fawaz. All rights reserved.
               </p>
               <p className="text-sm text-muted-foreground/70">
                 Designed with innovation and excellence

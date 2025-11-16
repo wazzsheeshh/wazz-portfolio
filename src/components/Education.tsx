@@ -119,7 +119,7 @@ const Education = () => {
               <div className="flex-grow space-y-6">
                 <div>
                   <h3 className="text-2xl md:text-3xl font-bold mb-2">Institut Teknologi Bandung (ITB)</h3>
-                  <p className="text-xl text-primary mb-1">B.Eng. Informatics Engineering — STEI-K</p>
+                  <p className="text-xl text-primary mb-1">S.T. Sarjana Teknik — STEI-K</p>
                   <p className="text-muted-foreground">2027 - 2029</p>
                 </div>
 
@@ -141,7 +141,7 @@ const Education = () => {
                   <div className="space-y-3">
                     <div className="flex items-start gap-3">
                       <Award className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                      <p className="text-foreground/80">Startup kampus diakuisisi Gojek</p>
+                      <p className="text-foreground/80">Software Engineer Junior di PT. Telkom Indonesia (Persero) Tbk</p>
                     </div>
                     <div className="flex items-start gap-3">
                       <Award className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
