@@ -1,15 +1,16 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Card } from "@/components/ui/card";
 
 const Timeline = () => {
   const timelineRef = useRef<HTMLDivElement>(null);
+  const [isHovering, setIsHovering] = useState(false);
 
   const milestones = [
     { year: 2008, title: "Born", description: "Lahirnya Wazz di Indonesia" },
     { year: 2021, title: "First AI", description: "Menciptakan AI pertama di usia 13 tahun" },
     { year: 2027, title: "ITB", description: "Masuk Institut Teknologi Bandung" },
     { year: 2029, title: "Stuttgart", description: "Melanjutkan master di University of Stuttgart" },
-    { year: 2031, title: "CEO NVIDIA", description: "Menjadi CEO NVIDIA termuda di dunia" },
+    { year: 2031, title: "MIT & CEO NVIDIA", description: "Masuk MIT dan menjadi CEO NVIDIA termuda" },
     { year: 2033, title: "World Champion", description: "Juara Dunia Catur" },
     { year: 2034, title: "Global Icon", description: "Menjadi ikon teknologi global" },
   ];
@@ -19,24 +20,48 @@ const Timeline = () => {
     if (!timeline) return;
 
     const handleScroll = () => {
-      const scrollLeft = timeline.scrollLeft;
       const items = timeline.querySelectorAll(".timeline-item");
       
       items.forEach((item) => {
         const rect = item.getBoundingClientRect();
-        const isVisible = rect.left >= 0 && rect.right <= window.innerWidth;
+        const timelineRect = timeline.getBoundingClientRect();
+        const itemCenter = rect.left + rect.width / 2;
+        const timelineCenter = timelineRect.left + timelineRect.width / 2;
+        const distance = Math.abs(itemCenter - timelineCenter);
+        const maxDistance = timelineRect.width / 2;
+        const proximity = 1 - Math.min(distance / maxDistance, 1);
         
-        if (isVisible) {
+        if (proximity > 0.3) {
           item.classList.add("active");
+        } else {
+          item.classList.remove("active");
         }
       });
     };
 
-    timeline.addEventListener("scroll", handleScroll);
-    handleScroll(); // Initial check
+    const handleMouseMove = (e: MouseEvent) => {
+      if (!isHovering || !timeline) return;
+      
+      const rect = timeline.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const scrollPercentage = x / rect.width;
+      const maxScroll = timeline.scrollWidth - timeline.clientWidth;
+      
+      timeline.scrollTo({
+        left: scrollPercentage * maxScroll,
+        behavior: "smooth"
+      });
+    };
 
-    return () => timeline.removeEventListener("scroll", handleScroll);
-  }, []);
+    timeline.addEventListener("scroll", handleScroll);
+    document.addEventListener("mousemove", handleMouseMove);
+    handleScroll();
+
+    return () => {
+      timeline.removeEventListener("scroll", handleScroll);
+      document.removeEventListener("mousemove", handleMouseMove);
+    };
+  }, [isHovering]);
 
   return (
     <section className="py-32 px-6 md:px-12 lg:px-24 relative overflow-hidden">
@@ -52,7 +77,9 @@ const Timeline = () => {
 
         <div
           ref={timelineRef}
-          className="flex gap-8 overflow-x-auto pb-8 snap-x snap-mandatory scrollbar-hide"
+          onMouseEnter={() => setIsHovering(true)}
+          onMouseLeave={() => setIsHovering(false)}
+          className="flex gap-8 overflow-x-auto pb-8 snap-x snap-mandatory scrollbar-hide cursor-move"
           style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
           {milestones.map((milestone, index) => (
@@ -71,7 +98,7 @@ const Timeline = () => {
         </div>
 
         <p className="text-center text-muted-foreground mt-8 animate-fade-up">
-          Scroll horizontally to explore →
+          Move your cursor to navigate the timeline →
         </p>
       </div>
 

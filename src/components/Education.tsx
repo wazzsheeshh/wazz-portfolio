@@ -15,8 +15,54 @@ const Education = () => {
         </div>
 
         <div className="space-y-12">
-          {/* University of Stuttgart */}
+          {/* MIT */}
           <Card className="glass-card p-8 md:p-12 animate-fade-up" style={{ animationDelay: "0.1s" }}>
+            <div className="flex flex-col md:flex-row gap-8 items-start">
+              <div className="flex-shrink-0">
+                <div className="w-24 h-24 rounded-2xl bg-primary/10 flex items-center justify-center glass">
+                  <GraduationCap className="w-12 h-12 text-primary" />
+                </div>
+              </div>
+              
+              <div className="flex-grow space-y-6">
+                <div>
+                  <h3 className="text-2xl md:text-3xl font-bold mb-2">Massachusetts Institute of Technology (MIT)</h3>
+                  <p className="text-xl text-primary mb-1">Ph.D. Computer Science — AI & Quantum Computing</p>
+                  <p className="text-muted-foreground">2031 - 2034</p>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="space-y-3">
+                    <div className="flex items-start gap-3">
+                      <Award className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <p className="text-foreground/80">Research Fellow di MIT Computer Science and AI Laboratory (CSAIL)</p>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <Award className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <p className="text-foreground/80">Breakthrough Prize in Mathematics untuk kontribusi di quantum algorithms</p>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <Award className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <p className="text-foreground/80">Kolaborasi riset dengan Google Quantum AI dan IBM Research</p>
+                    </div>
+                  </div>
+                  <div className="space-y-3">
+                    <div className="flex items-start gap-3">
+                      <BookOpen className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <p className="text-foreground/80">Published papers di Nature, Science, dan Physical Review Letters</p>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <Users className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <p className="text-foreground/80">Lead MIT Quantum Computing Initiative</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Card>
+
+          {/* University of Stuttgart */}
+          <Card className="glass-card p-8 md:p-12 animate-fade-up" style={{ animationDelay: "0.2s" }}>
             <div className="flex flex-col md:flex-row gap-8 items-start">
               <div className="flex-shrink-0">
                 <div className="w-24 h-24 rounded-2xl bg-primary/10 flex items-center justify-center glass">
@@ -62,7 +108,7 @@ const Education = () => {
           </Card>
 
           {/* Institut Teknologi Bandung */}
-          <Card className="glass-card p-8 md:p-12 animate-fade-up" style={{ animationDelay: "0.2s" }}>
+          <Card className="glass-card p-8 md:p-12 animate-fade-up" style={{ animationDelay: "0.3s" }}>
             <div className="flex flex-col md:flex-row gap-8 items-start">
               <div className="flex-shrink-0">
                 <div className="w-24 h-24 rounded-2xl bg-primary/10 flex items-center justify-center glass">
