@@ -63,8 +63,8 @@ Setiap saran atau pelaporan *bug* sangat diterima. Jika Anda ingin berkontribusi
 ## 👤 Author
 * **Wazz**
     * GitHub: [@wazzsheeshh](https://github.com/wazzsheeshh)
-    * LinkedIn: [Tautkan Profil LinkedIn Anda di Sini]
-    * Email: [Alamat Email Anda di Sini]
+    * Instagram: [@wazzsheeshh](https://www.instagram.com/ohwazzy/)
+    * Email: [wazzsheeshh@gmail.com]
 
 ## 📜 Lisensi
-Proyek ini dilisensikan di bawah [Ganti dengan jenis Lisensi Anda, cth: MIT License]. Lihat file [LICENSE.md](LICENSE.md) untuk detail selengkapnya.
+Proyek ini dilisensikan di bawah [https://opensource.org/license/mit]. Lihat file [LICENSE.md](LICENSE.md) untuk detail selengkapnya.
