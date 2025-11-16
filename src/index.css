@@ -136,7 +136,7 @@ All colors MUST be HSL.
   }
   
   body:not(.dark) {
->>>>>>> 165ad672107b7d8bd75666545313d498959de9e6
+    
     background: linear-gradient(180deg, hsl(210 20% 98%), hsl(210 15% 92%));
   }
   
