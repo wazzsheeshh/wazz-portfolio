@@ -1,73 +1,70 @@
-# Welcome to your Lovable project
+# 🧑‍💻 Wazz Portfolio
 
-## Project info
+## 🌟 Deskripsi Proyek
+Selamat datang di repositori portofolio pribadi saya!
 
-**URL**: https://lovable.dev/projects/1d94e7e9-d4df-4378-838a-03173158d982
+Repositori ini berisi semua kode sumber (source code) untuk situs web portofolio saya. Situs ini dirancang untuk menampilkan berbagai proyek yang telah saya kerjakan, daftar keterampilan teknis yang saya miliki, serta pengalaman kerja atau pendidikan saya di bidang [Ganti dengan bidang fokus Anda, cth: Pengembangan Web, Desain Produk, Data Science, dsb.].
 
-## How can I edit this code?
+**Lihat Portofolio Live:**
+Anda dapat mengakses versi yang sudah di-deploy dan berjalan dari portofolio ini di: **[Tautkan URL Portofolio Live Anda di Sini]**
 
-There are several ways of editing your application.
+## ✨ Fitur Utama
+* **Desain Responsif:** Tampilan yang disesuaikan dan berfungsi optimal di berbagai ukuran layar (Desktop, Tablet, Mobile).
+* **Studi Kasus Proyek:** Bagian detail yang menyoroti proyek-proyek utama dengan deskripsi, tantangan, dan solusi yang digunakan.
+* **Resume Digital:** Menyediakan akses mudah untuk mengunduh resume lengkap saya.
+* **[Tambahkan Fitur Spesifik Lain, cth: Dukungan Dark Mode, Animasi Scroll, dsb.]**
 
-**Use Lovable**
+## 🛠️ Tumpukan Teknologi (Tech Stack)
+Proyek ini dibangun menggunakan teknologi dan *framework* modern berikut:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1d94e7e9-d4df-4378-838a-03173158d982) and start prompting.
+* **Framework/Library:** [Contoh: React.js, Next.js, Vue.js, Vanilla JavaScript]
+* **Styling:** [Contoh: Tailwind CSS, SCSS/Sass, Styled Components, Bootstrap]
+* **Bahasa Pemrograman:** [Contoh: JavaScript/TypeScript, HTML5, CSS3]
+* **Hosting/Deployment:** [Contoh: Vercel, Netlify, GitHub Pages]
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Instalasi dan Setup Lokal
 
-**Use your preferred IDE**
+Ikuti langkah-langkah di bawah ini untuk menjalankan proyek portofolio ini di mesin lokal Anda:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prasyarat
+Pastikan Anda sudah menginstal:
+* [Contoh: **Node.js** (versi LTS)]
+* [Contoh: **npm** atau **yarn**]
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Langkah-langkah
+1.  **Clone Repositori:**
+    ```bash
+    git clone [https://github.com/wazzsheeshh/wazz-portfolio.git](https://github.com/wazzsheeshh/wazz-portfolio.git)
+    cd wazz-portfolio
+    ```
+2.  **Instal Dependensi:**
+    ```bash
+    npm install 
+    # atau jika Anda menggunakan yarn:
+    # yarn install
+    ```
+3.  **Jalankan Aplikasi:**
+    ```bash
+    npm run dev 
+    # atau jika Anda menggunakan yarn:
+    # yarn dev
+    ```
+4.  **Akses Lokal:**
+    Aplikasi akan tersedia di *browser* Anda pada alamat `http://localhost:[Nomor Port Anda]` (biasanya port 3000 atau 5173).
 
-Follow these steps:
+## 🤝 Kontribusi
+Setiap saran atau pelaporan *bug* sangat diterima. Jika Anda ingin berkontribusi:
+1.  *Fork* repositori ini.
+2.  Buat *branch* baru (`git checkout -b feature/amazing-feature`).
+3.  Lakukan *commit* perubahan Anda (`git commit -m 'feat: Tambahkan fitur X'`).
+4.  *Push* ke *branch* Anda (`git push origin feature/amazing-feature`).
+5.  Buka *Pull Request* baru.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 👤 Author
+* **Wazz**
+    * GitHub: [@wazzsheeshh](https://github.com/wazzsheeshh)
+    * Instagram: [@wazzsheeshh](https://www.instagram.com/ohwazzy/)
+    * Email: [wazzsheeshh@gmail.com]
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1d94e7e9-d4df-4378-838a-03173158d982) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📜 Lisensi
+Proyek ini dilisensikan di bawah [https://opensource.org/license/mit]. Lihat file [LICENSE.md](LICENSE.md) untuk detail selengkapnya.
