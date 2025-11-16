@@ -55,11 +55,11 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <Button size="lg" className="group bg-primary hover:bg-primary/90 text-primary-foreground glow">
+            <Button size="lg" className="group bg-primary hover:bg-primary/90 text-white glow">
               <Download className="mr-2 h-5 w-5 group-hover:animate-pulse" />
               Download CV
             </Button>
-            <Button size="lg" variant="outline" className="group glass-card border-primary/30 hover:border-primary">
+            <Button size="lg" variant="outline" className="group glass-card border-primary/30 hover:border-primary text-foreground">
               Contact Me
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
